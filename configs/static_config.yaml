@@ -69,8 +69,8 @@ components_manager:
           update-period: 10s                         # update cache each N seconds
           fs-task-processor: fs-task-processor       # Run it on blocking task processor
 
-        wordle-task.repotest.ru:
-          dir: /var/www/wordle-task.repotest.ru      # Path to the directory with files
+        wordle-client-qt.repotest.ru:
+          dir: /var/www/wordle-client-qt.repotest.ru      # Path to the directory with files
           update-period: 10s                         # update cache each N seconds
           fs-task-processor: fs-task-processor       # Run it on blocking task processor
 

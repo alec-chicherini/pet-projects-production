@@ -19,7 +19,7 @@
 |-|-|-|-|-|
 |Desktop application|Ubuntu 20.04|C++, Qt5|Done|wordle-client-qt Собирается в Ubuntu 20.04. Работает в Ubuntu 20.04|
 |Web application|Web browsers|C++, Qt Latest, Web Assembly|Done|wordle-client-qt для Web Assembly, работает в Google Chrome|
-|Backend|Ubuntu 24.04|C++, userver|Done|server-http для запуска клиента в wasm в поддомене www.wordle-task.repotest.ru.|
+|Backend|Ubuntu 24.04|C++, userver|Done|server-http для запуска клиента в wasm в поддомене www.wordle-client-qt.repotest.ru.|
 |Backend|Ubuntu 24.04|C++, userver|Done|Добавить tls https, чтобы каждый сервер в handler-subdomain-static подписывался. |
 |Frontend|Web browser|c++, html|Done|Сделать главную страницу для repotest.ru со ссылками на мои проекты в github|
 |Backend|Ubuntu 24.04|C++, userver|In Progress|server-http вынести в отдельный проект|

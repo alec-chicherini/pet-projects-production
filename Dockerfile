@@ -26,7 +26,7 @@ COPY --from=server_http_build /result/*.deb /
 RUN dpkg -i /*.deb
 
 COPY --from=site_repotest_ru_build /result/ /var/www/repotest.ru/ 
-COPY --from=wordle_client_build_wasm /result/ /var/www/wordle-task.repotest.ru/
+COPY --from=wordle_client_build_wasm /result/ /var/www/wordle-client-qt.repotest.ru/
 COPY ./configs/ /etc/server-http/
 
 ENTRYPOINT ["server-http", "--config", "/etc/server-http/static_config.yaml"]

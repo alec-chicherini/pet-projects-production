@@ -4,4 +4,4 @@ monitor_worker_threads: 1
 logger_level: info
 is_testing: false
 server_port: 8080
-hosts_list:  [repotest.ru, wordle-task.repotest.ru]
+hosts_list:  [repotest.ru, wordle-client-qt.repotest.ru]
