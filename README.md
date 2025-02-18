@@ -22,8 +22,8 @@
 |Backend|Ubuntu 24.04|C++, userver|Done|server-http для запуска клиента в wasm в поддомене www.wordle-client-qt.repotest.ru.|
 |Backend|Ubuntu 24.04|C++, userver|Done|Добавить tls https, чтобы каждый сервер в handler-subdomain-static подписывался. |
 |Frontend|Web browser|c++, html|Done|Сделать главную страницу для repotest.ru со ссылками на мои проекты в github|
-|Backend|Ubuntu 24.04|C++, userver|In Progress|server-http вынести в отдельный проект|
-|Frontend|Web browser|C++, html|In Progress| site-repotest-ru вынести в отдельный проект|
+|Backend|Ubuntu 24.04|C++, userver|Done|server-http вынести в отдельный проект|
+|Frontend|Web browser|C++, html|Done| site-repotest-ru вынести в отдельный проект|
 |Back+Front|c++, javascript|In Progress|Добавить pet-game-cpp-backend на repotest.ru|
 |Backend|Ubuntu 24.04|C++, userver, postgres|Planning|IAM Service|
 |Backend|Ubuntu 24.04|C++, userver, redis|Planning|Сервер статистики|
