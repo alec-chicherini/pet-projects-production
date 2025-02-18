@@ -90,6 +90,6 @@ docker build --target=i_am_production . -t i-am-production
 docker service create \
 --name i-am-production \
 --secret source=repotest_ru_certificate_full_chain,target=/etc/ssl/certs/repotest_ru_certificate_full_chain.pem,mode=0400 \
---secret source=repotest_ru_private_key,target=/etc/ssl/certs/repotest_ru_private_key.pem,mode=0400 -p 443:8080 http_server_build
+--secret source=repotest_ru_private_key,target=/etc/ssl/certs/repotest_ru_private_key.pem,mode=0400 -p 443:8080 i-am-production
 #docker service rm i-am-production
 ```
