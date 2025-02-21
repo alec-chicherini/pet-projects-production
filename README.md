@@ -8,6 +8,7 @@
 |[server-http](https://github.com/alec-chicherini/server-http)|-|HTTP сервер для repotest.ru|
 |[site-repotest-ru](https://github.com/alec-chicherini/site-repotest-ru)|[https://repotest.ru/index.html](https://repotest.ru/index.html)|Главная страница repotest.ru|
 |[wordle-client-qt](https://github.com/alec-chicherini/wordle-client-qt)|[https://wordle-client-qt.repotest.ru/index.html](https://repotest.ru/index.html)|Клиент wordle для linux desktop и wasm|
+|[wordle-server-game](https://github.com/alec-chicherini/wordle-server-game)|TODO|Сервер игры|
 |[wordle-server-iam](https://github.com/alec-chicherini/wordle-server-iam)|TODO|IAM сервис для wordle|
 |[wordle-server-stat](https://github.com/alec-chicherini/wordle-server-stat)|TODO|Сервис статистики для wordle|
 |[wordle-client-bash](https://github.com/alec-chicherini/wordle-client-bash)|TODO|Клиент для wordle в bash|
@@ -24,9 +25,11 @@
 |Frontend|Web browser|c++, html|Done|Сделать главную страницу для repotest.ru со ссылками на мои проекты в github|
 |Backend|Ubuntu 24.04|C++, userver|Done|server-http вынести в отдельный проект|
 |Frontend|Web browser|C++, html|Done| site-repotest-ru вынести в отдельный проект|
-|Back+Front|c++, javascript|In Progress|Добавить pet-game-cpp-backend на repotest.ru|
-|Backend|Ubuntu 24.04|C++, userver, postgres|Planning|IAM Service|
+|Frontend|Web browser, Ubuntu 20.04||In Progress|Сделать REST API для клиента|
+|Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|Сервер игры|
+|Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|IAM Service|
 |Backend|Ubuntu 24.04|C++, userver, redis|Planning|Сервер статистики|
+|Back+Front|c++, javascript|Planning|Добавить pet-game-cpp-backend на repotest.ru|
 |Desktop application|Linux|C++, Qt 6|Planning|Сделать консольную версию. Чтобы всё работало в bash с минимальным интерфейсом вроде dialog.|
 |Web Application|Telegramm App|C++, TDLib|Planning|Можно поиграть в официальных приложениях Telegramm Desktop и Telegramm Android|
 |Web Application|VK Mini Apps|????|Planning|Можно поиграть в VK|
