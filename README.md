@@ -25,7 +25,7 @@
 |Frontend|Web browser|c++, html|Done|Сделать главную страницу для repotest.ru со ссылками на мои проекты в github|
 |Backend|Ubuntu 24.04|C++, userver|Done|server-http вынести в отдельный проект|
 |Frontend|Web browser|C++, html|Done| site-repotest-ru вынести в отдельный проект|
-|Frontend|Web browser, Ubuntu 20.04||In Progress|Сделать REST API для клиента|
+|Frontend|Web browser, Ubuntu 20.04|C++, Qt|In Progress|Сделать REST API для клиента|
 |Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|Сервер игры|
 |Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|IAM Service|
 |Backend|Ubuntu 24.04|C++, userver, redis|Planning|Сервер статистики|
