@@ -30,7 +30,7 @@
 |Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|IAM Service|
 |Backend|Ubuntu 24.04|C++, userver, redis|Planning|Сервер статистики|
 |Backend|Ubuntu 24.04|C++, userver|Planning|Проверить api на соответствие https://habr.com/ru/articles/503284/|
-|Back+Front|c++, javascript|Planning|Добавить pet-game-cpp-backend на repotest.ru|
+|Back+Front|Ubuntu 24.04|c++, javascript|Planning|Добавить pet-game-cpp-backend на repotest.ru|
 |Desktop application|Linux|C++, Qt 6|Planning|Сделать консольную версию. Чтобы всё работало в bash с минимальным интерфейсом вроде dialog.|
 |Web Application|Telegramm App|C++, TDLib|Planning|Можно поиграть в официальных приложениях Telegramm Desktop и Telegramm Android|
 |Web Application|VK Mini Apps|????|Planning|Можно поиграть в VK|
