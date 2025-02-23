@@ -7,10 +7,10 @@
 |-|-|-|
 |[server-http](https://github.com/alec-chicherini/server-http)|-|HTTP сервер для repotest.ru|
 |[site-repotest-ru](https://github.com/alec-chicherini/site-repotest-ru)|[https://repotest.ru/index.html](https://repotest.ru/index.html)|Главная страница repotest.ru|
-|[wordle-client-qt](https://github.com/alec-chicherini/wordle-client-qt)|[https://wordle-client-qt.repotest.ru/index.html](https://repotest.ru/index.html)|Клиент wordle для linux desktop и wasm|
+|[wordle-client-qt-25-2.repotest.ru](https://github.com/alec-chicherini/wordle-client-qt)|[https://wordle-client-qt-25-2.repotest.ru/wordle-client-qt.html](https://wordle-client-qt-25-2.repotest.ru/wordle-client-qt.html)|Standalone Клиент wordle для linux desktop и wasm версия 25.2|
+|[wordle-client-qt-25-3.repotest.ru](https://github.com/alec-chicherini/wordle-client-qt)|[https://wordle-client-qt-25-3.repotest.ru/wordle-client-qt.html](https://wordle-client-qt-25-3.repotest.ru/wordle-client-qt.html)|Микросервисный Клиент wordle для linux desktop и wasm версия 25.3|
 |[wordle-server-game](https://github.com/alec-chicherini/wordle-server-game)|TODO|Сервер игры|
 |[wordle-server-iam](https://github.com/alec-chicherini/wordle-server-iam)|TODO|IAM сервис для wordle|
-|[wordle-server-stat](https://github.com/alec-chicherini/wordle-server-stat)|TODO|Сервис статистики для wordle|
 |[wordle-client-bash](https://github.com/alec-chicherini/wordle-client-bash)|TODO|Клиент для wordle в bash|
 |[pet-game-cpp-backend](https://github.com/alec-chicherini/pet-game-cpp-backend)|TODO|Учебный проект backend сервера. Результат курса Яндекс Практикум|
 
@@ -28,7 +28,7 @@
 |Frontend|Web browser, Ubuntu 20.04|C++, Qt|In Progress|Сделать REST API для клиента|
 |Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|Сервер игры|
 |Backend|Ubuntu 24.04|C++, userver, postgres|In Progress|IAM Service|
-|Backend|Ubuntu 24.04|C++, userver, redis|Planning|Сервер статистики|
+|Backend|Ubuntu 24.04|C++, userver, redis|Planning|Раздел статистики в клиенте|
 |Backend|Ubuntu 24.04|C++, userver|Planning|Проверить api на соответствие https://habr.com/ru/articles/503284/|
 |Back+Front|Ubuntu 24.04|c++, javascript|Planning|Добавить pet-game-cpp-backend на repotest.ru|
 |Desktop application|Linux|C++, Qt 6|Planning|Сделать консольную версию. Чтобы всё работало в bash с минимальным интерфейсом вроде dialog.|
@@ -48,13 +48,25 @@ source <(curl https://raw.githubusercontent.com/alec-chicherini/development-scri
 
 <!--Собрать все зависимости -->
 ## Собрать все завсимости
-### wordle-client-qt
+### wordle-client-qt-25-02 standalone
 ```bash
 git clone https://github.com/alec-chicherini/wordle-client-qt.git
 cd wordle-client-qt
+git checkout 25.02
 git submodule init
 git submodule update
-docker build --target=qt_wasm_build_from_source . -t wordle-client-qt-build-wasm
+docker build --target=qt_wasm_build_from_source . -t wordle-client-qt-build-wasm:25.02
+cd ~
+```
+
+### wordle-client-qt-25-03 microservices
+```bash
+git clone https://github.com/alec-chicherini/wordle-client-qt.git
+cd wordle-client-qt
+git checkout 25.03
+git submodule init
+git submodule update
+docker build --target=qt_wasm_build_from_source . -t wordle-client-qt-build-wasm:25.03
 cd ~
 ```
 
