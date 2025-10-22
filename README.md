@@ -36,7 +36,7 @@
 |Web Application|VK Mini Apps|????|Planning|Можно поиграть в VK|
 |GUI|Ubuntu|C++, Qt 6|Planning|Использовать Qt Virtual Keyboard|
 |Desktop application|Ubuntu|C++, Qt6 latest|Planning|Сделать новый таргет сборки в Docker где Qt latest, сборка на ubuntu:25.04. Qt собирается из latest исходников или из репозитория. Сборка статическая где всё вкомпилено в бинарник и Qt и системные либы. |
-|improve docker builds|All|Docker|Planning|https://habr.com/ru/companies/ruvds/articles/953990/|
+|Production|All|Docker|Planning|improve docker buildshttps://habr.com/ru/companies/ruvds/articles/953990/|
 # Сборка
 <!--Подготовить хост-->
 ## Подготовить хост для сборки.
