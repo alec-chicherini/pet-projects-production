@@ -36,7 +36,10 @@
 |Web Application|VK Mini Apps|????|Planning|Можно поиграть в VK|
 |GUI|Ubuntu|C++, Qt 6|Planning|Использовать Qt Virtual Keyboard|
 |Desktop application|Ubuntu|C++, Qt6 latest|Planning|Сделать новый таргет сборки в Docker где Qt latest, сборка на ubuntu:25.04. Qt собирается из latest исходников или из репозитория. Сборка статическая где всё вкомпилено в бинарник и Qt и системные либы. |
-|Production|All|Docker|Planning|improve docker buildshttps://habr.com/ru/companies/ruvds/articles/953990/|
+|Production|All|Docker|Planning|improve docker builds https://habr.com/ru/companies/ruvds/articles/953990/|
+|Production|All|All|Planning|исследовать преимущества всех сервисов Яндекс облака. Например, статические артефакты билда сайта хранить в object storage.|
+|Production|All|All|Planning|Сделать разворачивание всего сервиса одним скриптом на локальной машине.|
+
 # Сборка
 <!--Подготовить хост-->
 ## Подготовить хост для сборки.
